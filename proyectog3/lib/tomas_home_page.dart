@@ -50,7 +50,7 @@ class HomePage extends StatelessWidget {
               onPressed: () {},
               child: Text('GET STARTED'),
               style: ElevatedButton.styleFrom(
-                primary: Colors.orange,
+                backgroundColor: Colors.orange,
                 padding: EdgeInsets.symmetric(horizontal: 40, vertical: 15),
                 textStyle: TextStyle(fontSize: 18),
                 shape: RoundedRectangleBorder(
