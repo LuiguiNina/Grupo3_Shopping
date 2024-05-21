@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:proyectog3/tomas_home_page.dart';
 import 'package:proyectog3/ec_cart_page.dart';
+import 'package:proyectog3/ln_shopping_page.dart';
 
 import 'ec_cart_page.dart';
-//import 'shopping_page.dart';
+import 'ln_shopping_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -46,7 +47,7 @@ class MainPage extends StatelessWidget {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => HomePage()),
+                  MaterialPageRoute(builder: (context) => ShoppingPage()),
                 );
               },
               child: Text('Luigui Shopping'),
